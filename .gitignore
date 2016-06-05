@@ -1,0 +1,9 @@
+/*
+!.gitignore
+!.jshintrc
+!typings/
+!src/
+
+src/*
+!src/admin4all
+!src/.htaccess
