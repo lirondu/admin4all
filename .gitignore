@@ -1,6 +1,7 @@
 /*
 !.gitignore
 !.jshintrc
+!README.md
 !typings/
 !src/
 
