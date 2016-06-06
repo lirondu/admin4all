@@ -4,8 +4,8 @@ if (!isset($_POST['op'])) {
 	die();
 }
 
-require_once '../phpThumb-1.7.13/phpthumb.class.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/admin/params/parameters.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/admin4all/externals/phpThumb-1.7.13/phpthumb.class.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/admin4all/params/parameters.php';
 
 error_reporting(1);
 

@@ -8,7 +8,7 @@ if (!isset($_SESSION['valid_admin']) || !$_SESSION['valid_admin']) {
 }
 
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/admin/params/parameters.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/admin4all/params/parameters.php';
 
 
 $permisions = array('read' => true);

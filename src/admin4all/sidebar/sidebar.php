@@ -1,6 +1,3 @@
-<?
-// require_once '../../../php/db-functions.php';
-?>
 <div class="links-cont">
 	<ul>
 		<li>

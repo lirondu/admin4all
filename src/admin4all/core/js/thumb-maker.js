@@ -91,7 +91,7 @@ var CmsThumbMaker = {
 
 			$.ajax({
 				type: "POST",
-				url: "/admin/php/cms-thumb-maker.php",
+				url: "/admin4all/core/php/ajax/thumb-maker.php",
 				data: 'op=create-thumbnails&files=' + filesList,
 				success: function (msg) {
 					CmsThumbMaker.ShowThumbMakerResponse(msg);
@@ -143,7 +143,7 @@ var CmsThumbMaker = {
 
 			$.ajax({
 				type: "POST",
-				url: "/admin/php/cms-thumb-maker.php",
+				url: "/admin4all/core/php/ajax/thumb-maker.php",
 				data: 'op=delete-thumbnails&files=' + filesList,
 				success: function (msg) {
 					// TODO: if fail - log the undeleted thumb

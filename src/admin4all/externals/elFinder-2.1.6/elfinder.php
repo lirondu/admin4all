@@ -36,7 +36,7 @@ if (!isset($_SESSION['valid_admin']) || !$_SESSION['valid_admin']) {
 
 
    <!-- Load CmsConfig for ckeditor popup window -->
-   <script src="/admin/js/cms-config.js"></script>
+   <script src="/admin/js/config.js"></script>
 
 
 
@@ -81,9 +81,6 @@ if (!isset($_SESSION['valid_admin']) || !$_SESSION['valid_admin']) {
          });
       });
    </script>
-
-   <link href="./plugins/jquery-ui-1.11.4.custom/jquery-ui.min.css" rel="stylesheet" type="text/css" media="screen" />
-   <script src="./plugins/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 </head>
 
 <body>

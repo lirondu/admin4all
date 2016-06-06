@@ -10,7 +10,7 @@ class CmsParams {
 	//public static $DB_NAME = 'lirondug_haim_dkl';
 	
 	
-	public static $IMAGES_BASE_DIR = 'C:\\Users\\Liron\\Documents\\www\\cms-dev\\src\\images';
+	public static $IMAGES_BASE_DIR = 'C:\\Users\\Liron\\Documents\\www\\admin4all-dev\\src\\images';
 //	public static $IMAGES_BASE_DIR = 'C:\\Users\\Liron\\Documents\\www\\eauetgazGit\\src\\img\\';
 	public static $IMAGES_URL = '/images/';
 	public static $THUMBS_DIR = '.thumbs';

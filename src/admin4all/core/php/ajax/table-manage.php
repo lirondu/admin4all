@@ -1,5 +1,5 @@
 <?
-require_once $_SERVER['DOCUMENT_ROOT'] . '/db/database.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/admin4all/db-worker/mysql.php';
 
 // DB table name
 $tableName = (isset($_POST['table'])) ? $_POST['table'] : die('Wrong table config');

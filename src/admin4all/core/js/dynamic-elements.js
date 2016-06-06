@@ -135,7 +135,7 @@ var CmsDynamicElements = {
 		});
 	},
 	LoadManageTable: function (table, perYear, args) {
-		var ajaxFile = (perYear) ? '/admin/php/ajax/table-manage-per-year.php' : '/admin/php/ajax/table-manage.php';
+		var ajaxFile = (perYear) ? '/admin4all/core/php/ajax/table-manage-per-year.php' : '/admin4all/core/php/ajax/table-manage.php';
 
 		var data = {
 			'table': table

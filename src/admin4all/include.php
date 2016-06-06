@@ -34,8 +34,8 @@ if (isset($_GET['preview']) && $_GET['preview'] === 'true') {
 }
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/admin4all/params/parameters.php';
-require_once 'admin4all/core/php/cms-inline-elements.php';
-require_once 'admin4all/core/php/cms-dynamic-elements.php';
+require_once 'admin4all/core/php/inline-elements.php';
+require_once 'admin4all/core/php/dynamic-elements.php';
 require_once 'admin4all/site-specific/site-specific.php';
 ?>
 
